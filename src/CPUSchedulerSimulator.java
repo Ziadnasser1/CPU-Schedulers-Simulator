@@ -24,7 +24,7 @@ public class CPUSchedulerSimulator{
         }
 //        else if (c==2)
 //        {
-//           RRSchedule()
+//           SRTF()
 //        }
         else if (c==3)
         {
@@ -33,6 +33,6 @@ public class CPUSchedulerSimulator{
         }
 //        else if (c==4)
 //        {
-//            RRSchedule()
+//            AG()
         }
 }
