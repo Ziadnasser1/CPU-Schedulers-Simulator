@@ -11,9 +11,10 @@ public  class Process  {
     int turnAroundTime=0;
     int order=0;
     int contextSwitch;
+    int priority;
 
 
-    public void setData(String processName,int arrivalTime,  int burstTime,int num,int contextSwitch)
+    public void setData(String processName,int arrivalTime,  int burstTime,int num,int contextSwitch,int priority)
     {
         this.processName=processName;
         this.arrivalTime=arrivalTime;
@@ -22,6 +23,7 @@ public  class Process  {
         this.waitingTime=0;
         this.turnAroundTime=0;
         this.contextSwitch=contextSwitch;
+        this.priority = priority;
     }
 
 

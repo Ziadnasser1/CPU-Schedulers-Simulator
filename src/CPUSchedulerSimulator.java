@@ -26,10 +26,11 @@ public class CPUSchedulerSimulator{
 //        {
 //           RRSchedule()
 //        }
-//        else if (c==3)
-//        {
-//            RRSchedule()
-//        }
+        else if (c==3)
+        {
+            PriorityScheduling pr = new PriorityScheduling(arr, n);
+            pr.prioritySchedule(arr, n);
+        }
 //        else if (c==4)
 //        {
 //            RRSchedule()

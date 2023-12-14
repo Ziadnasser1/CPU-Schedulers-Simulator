@@ -15,7 +15,7 @@ public class ShortestJobFirst {
             System.out.print("Enter The burst time: ");
             int burstTime= sc.nextInt();
             Process k=new Process();
-            k.setData(processName,arrivalTime,burstTime,i,contextSwitch);
+            k.setData(processName,arrivalTime,burstTime,i,contextSwitch,0);
             arr.add(k);
         }
     }
